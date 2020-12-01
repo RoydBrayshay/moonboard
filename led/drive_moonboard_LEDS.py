@@ -13,9 +13,8 @@ MOONBOARD_PIXELS_COUNT = 198
 HOLDS_COLORS = {'START':COLORS.green,'TOP':COLORS.red,'MOVES':COLORS.blue}
 
 def init_pixels(type, npixels = MOONBOARD_PIXELS_COUNT, brightness=BRIGHTNESS):
-    
-    layout = Strip(driver,  brightness=brightness)
-    #layout.start()
+xx
+    layout = Strip(type,  brightness=brightness)
     return layout
 
 def coordinate_to_p_number(hold_coord, offset):
